@@ -40,7 +40,8 @@ if (correctpin===userpin) {
         alert('invaild choice')
     }
 }
-else {alert('wrong pin')}
+    else {alert('wrong pin')}
+
 
 
 

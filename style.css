@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#heading{
+    background-color: rgb(2, 38, 40);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.main{
+    position: relative;
+    top: 45px;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     right: 20px;
+     gap: 160px;
+     
+}
+.rock {
+    width: 100px;
+    height: 100px;
+}
+ img{
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 50%;
+;
+}
+ img:hover{
+    border: 5px solid black;
+}
+.store{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    top: 100px;
+    gap: 30px;
+}
+
+.para1 ,.para2 {
+    font-size: 40px;
+}
+.btn{
+    text-align: center;
+    position: relative;
+    top: 120px;
+    align-items: center;
+      display: flex;
+    justify-content: center;
+}
+.btn2{
+  
+    background-color: rgb(2, 38, 40);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
